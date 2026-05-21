@@ -2,11 +2,14 @@
   "name": "my-v0-project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://omega5z.github.io/TimeTravel",
   "scripts": {
     "build": "next build",
+    "export": "next export",
     "dev": "next dev",
     "lint": "eslint .",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "npm run build && npm run export"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
