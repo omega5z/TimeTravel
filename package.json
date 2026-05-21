@@ -5,11 +5,10 @@
   "homepage": "https://omega5z.github.io/TimeTravel",
   "scripts": {
     "build": "next build",
-    "export": "next export",
     "dev": "next dev",
     "lint": "eslint .",
     "start": "next start",
-    "deploy": "npm run build && npm run export"
+    "deploy": "npm run build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
