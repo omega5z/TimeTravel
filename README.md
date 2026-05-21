@@ -94,3 +94,7 @@ pnpm lint
 
 - Le projet inclut à la fois `package-lock.json` et `pnpm-lock.yaml`, donc les deux gestionnaires peuvent être utilisés selon l'environnement.
 - Si vous souhaitez ajouter des images, placez-les dans `public/images/` et utilisez `next/image` pour l'optimisation.
+
+## 🔗 Live demo
+
+Le site est publié sur GitHub Pages : https://omega5z.github.io/TimeTravel/
